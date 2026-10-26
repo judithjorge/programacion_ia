@@ -7,6 +7,7 @@ con la siguiente información (ES OBLIGATORIO USAR CONJUNTOS PARA CALCULARLOS)
 """
 
 def set_operations(list1, list2):
+    #Al convertir las listas a set, desaparecen los numeros repetidos
     conjunto1 = set(list1)
     conjunto2= set(list2)
     
